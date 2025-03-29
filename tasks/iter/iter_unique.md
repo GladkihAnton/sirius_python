@@ -2,11 +2,11 @@
 
 
 ```python
-class UniqueIterator:
+class OrderedUniqueIterator:
     ...
 
 nums = [1, 2, 2, 3, 4, 4, 5]
-unique = UniqueIterator(nums)
+unique = OrderedUniqueIterator(nums)
 for num in unique:
     print(num)
 ```
